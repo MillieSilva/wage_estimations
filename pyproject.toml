@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wage-estimations"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "wage_estimations"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+simple-term-menu = "^1.6.1"
+
+
+# [tool.poetry.scripts]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
